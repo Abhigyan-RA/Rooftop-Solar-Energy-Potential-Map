@@ -109,7 +109,7 @@ This method ensures accurate area calculations by integrating geographic and pix
 
 ## Usage
 
-- **Data Preparation**: Use `split_folders.ipynb` to organize your dataset. Convert images to TIFF format with `automatic_tif_converter.ipynb`. Generate masks using `create_mask.ipynb`.
+- **Data Preparation**: Use `split_folders.ipynb` to organize your dataset. Generate masks using `create_mask.ipynb`.
 - **Model Training**: Train the ResNet50-U-Net model with `model_resnet.ipynb`.
 - **Prediction and Post-Processing**: Predict building footprints and refine results using `prediction.ipynb`. Calculate building areas with `area_finder.ipynb`.
 
